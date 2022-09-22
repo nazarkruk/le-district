@@ -3,6 +3,13 @@
     font-size : 80px
 } */
 
+
+@media (min-width:992px) {
+    .navbar-expand-lg .navbar-collapse{
+        width: 100%;
+    }
+    
+}
 body {
     overflow-x: hidden;
     font-family: 'Arimo', sans-serif;
@@ -25,6 +32,18 @@ body {
 
 /* Nav Bar */
 
-.navbar{
-    background-color: black;
+.bg-dark{
+    
+    opacity: 0.9; 
+    filter:(opacity=70); 
+}
+
+/* #main-carousel {
+    position: relative;
+} */
+
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 99;
 }
