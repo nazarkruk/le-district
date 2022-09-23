@@ -1,7 +1,4 @@
-/* .fa-brands {
-    color:blue;
-    font-size : 80px
-} */
+
 
 
 @media (min-width:992px) {
@@ -34,16 +31,22 @@ body {
 
 .bg-dark{
     
-    opacity: 0.9; 
+    opacity: 0.7; 
     filter:(opacity=70); 
 }
 
-/* #main-carousel {
-    position: relative;
-} */
+
 
 header{
     width: 100%;
     position: fixed;
     z-index: 99;
 }
+
+
+/* Styling Icons */
+
+/* .fa-brands {
+    color:blue;
+    font-size : 80px
+} */
