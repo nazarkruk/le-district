@@ -1,12 +1,7 @@
 
 
 
-@media (min-width:992px) {
-    .navbar-expand-lg .navbar-collapse{
-        width: 100%;
-    }
-    
-}
+
 body {
     overflow-x: hidden;
     font-family: 'Arimo', sans-serif;
@@ -14,9 +9,9 @@ body {
     color:#616971
 }
 
-/* Top Bar */
+/* TOP BAR */
 
-.top-bar{
+/* .top-bar{
     background: black;
     height: 2rem;
     padding: .25rem  0;
@@ -25,28 +20,46 @@ body {
 .top-bar a{
     color: white;
     text-decoration: none;
+}  */
+
+
+
+/* ======NAV BAR ======= */
+
+/* logo center */
+@media (min-width:992px) {
+    .navbar-expand-lg .navbar-collapse{
+        width: 100%;
+    } 
+}
+/* navbar color */
+@media (max-width:992px) {
+    .navbar{
+        background-color: black;
+    } 
 }
 
-/* Nav Bar */
-
-.bg-dark{
-    
-    opacity: 0.7; 
-    filter:(opacity=70); 
+.nav-link{
+    color: white !important;
+    text-shadow: black;
 }
 
 
 
-header{
-    width: 100%;
-    position: fixed;
-    z-index: 99;
-}
+/* CAROUSEL */
 
 
-/* Styling Icons */
-
-/* .fa-brands {
-    color:blue;
-    font-size : 80px
-} */
+.tinted-image:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.381),
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0)
+      );
+  } 
