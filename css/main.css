@@ -6,7 +6,7 @@ body {
     overflow-x: hidden;
     font-family: 'Arimo', sans-serif;
     font-family: 'Roboto', sans-serif;
-    color:#616971
+    color:black;
 }
 
 /* TOP BAR */
@@ -41,9 +41,24 @@ body {
 
 .nav-link{
     color: white !important;
-    text-shadow: black;
+    
 }
 
+.nav-link.active,
+.nav-link:hover{
+    
+    color: rgb(198, 198, 198) !important;
+    
+}
+
+
+.navbar-brand img{
+    height: 2.5rem;
+}
+
+.nav-item{
+    padding: .5rem;
+}
 
 
 /* CAROUSEL */
@@ -63,3 +78,20 @@ body {
         rgba(0, 0, 0, 0)
       );
   } 
+
+.carousel-caption {
+    position: absolute;
+    top: 54%;
+    transform: translateY(-50%);
+    
+}
+
+.bg-custom {
+    background-color: rgba(0, 0, 0, .4);
+    color:white;
+
+}
+
+/* .carousel-inner{
+    max-height: 40rem!important ;
+} */
