@@ -73,25 +73,27 @@ body {
     left: 0;
     right: 0;
     background: linear-gradient(
-        rgba(0, 0, 0, 0.381),
+        rgba(0, 0, 0, 0.99),
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0),
         rgba(0, 0, 0, 0),
         rgba(0, 0, 0, 0)
       );
   } 
-
-.carousel-caption {
-    position: absolute;
-    top: 54%;
-    transform: translateY(-50%);
-    
+  .carousel-inner{
+    max-height: 50rem!important ;
 }
 
-.bg-custom {
+.carousel-caption {
+    position:absolute;
+    top: 54%;
+    transform: translateY(-50%);
+     
+}
+
+.caption-bg{
     background-color: rgba(0, 0, 0, .4);
     color:white;
 
 }
 
-/* .carousel-inner{
-    max-height: 40rem!important ;
-} */
