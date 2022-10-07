@@ -6,7 +6,8 @@ body {
     overflow-x: hidden;
     font-family: 'Arimo', sans-serif;
     font-family: 'Roboto', sans-serif;
-    color:black;
+    color:rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
 }
 
 /* TOP BAR */
@@ -97,3 +98,7 @@ body {
 
 }
 
+
+.card-img-overlay {
+    background-color: rgba(#000, 0.9);
+  }
